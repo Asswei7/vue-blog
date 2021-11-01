@@ -1,0 +1,14 @@
+
+markerhub:
+  jwt:
+    # ������Կ
+    secret: f4e2e52034348f86b67cde581c0f9eb5
+    # token��Чʱ����7�죬��λ��
+    expire: 604800
+    header: Authorization
+server:
+  port: 8082
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**Mapper.xml
+
+
